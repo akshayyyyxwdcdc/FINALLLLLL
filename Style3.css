@@ -104,17 +104,7 @@ body {
 }
 
 /*---heart -----*/
-.heart {
-  background-color: red;
-  height: 70px;
-  width: 70px;
-  position: relative;
-  top: 20px;
-  left: 20px;
-  transform: rotate(-45deg);
-  box-shadow: -5px 10px 90px red;
-  animation: untoldcoding 0.8s linear infinite;
-}
+
 
 @keyframes untoldcoding {
   0% {
@@ -127,21 +117,4 @@ body {
     transform: rotate(-45deg) scale(0.8);
   }
 }
-.heart:before {
-  content: "";
-  position: absolute;
-  height: 70px;
-  width: 70px;
-  background-color: red;
-  top: -35px;
-  border-radius: 50px;
-}
-.heart:after {
-  content: "";
-  position: absolute;
-  height: 70px;
-  width: 70px;
-  background-color: red;
-  right: -35px;
-  border-radius: 50px;
-}
+
